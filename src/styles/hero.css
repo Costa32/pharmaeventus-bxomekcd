@@ -1,0 +1,7 @@
+/* Use a CSS class approach instead of inline styles for mobile background */
+@media (max-width: 768px) {
+  .absolute.inset-0.bg-cover {
+    background-image: url("https://images.unsplash.com/photo-1734629286977-0448f1471fcb?auto=format&fit=crop&q=80&w=2012") !important;
+    background-position: 65% center; /* Adjust horizontal position to 60% from the left */
+  }
+}
