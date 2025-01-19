@@ -26,6 +26,7 @@ export default function ContactInfo() {
         <div>
           <h3 className="text-lg font-medium text-gray-900">Endereço</h3>
           <p className="mt-1 text-gray-600">
+            {address.street}<br />
             {address.building}, {address.suite}<br />
             {address.neighborhood}<br />
             {address.city} - {address.state}<br />
