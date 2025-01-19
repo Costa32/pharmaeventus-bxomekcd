@@ -8,6 +8,6 @@ export const contactInfo = {
     neighborhood: "Caminho das Árvores",
     city: "Salvador",
     state: "BA",
-    zipCode: "41.820-77"
+    zipCode: "41.820-770"
   }
 };
